@@ -59,7 +59,7 @@ re-signing tools required.
 committed.
 
 A free-account signature expires after about 7 days. Re-run `./build.sh` to renew it,
-or use [ReSign](https://github.com/Id3arium/ReSign) to renew automatically.
+or use [ReSign](https://github.com/andres-al-campos/ReSign) to renew automatically.
 
 ## First-run setup (in the app)
 
