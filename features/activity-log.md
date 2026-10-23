@@ -1,6 +1,6 @@
 # Activity log
 
-Updated 2026-10-23 00:53, at 1.0.1.
+Updated 2026-10-23 17:26, at 1.0.1.
 
 Every app session with the time it started, grouped by day, so you
 can see when you used each app and not just how long.
@@ -39,6 +39,9 @@ By hand only: open and close a tracked app and see the session appear.
   - An app opened again with no close in between restarts its session at the
     later open, and the time before it is dropped.
   - A close for an app that isn't open is ignored.
+- Locking the phone logs no close (seen on the phone, 2026-10-23). A session
+  runs on through the locked time until the next app opens, so its length and
+  the totals come out longer than Screen Time's.
 - A session ended by the next app's open isn't an estimate (see Calls). The "~" a row shows for an
   estimated length is left over from a debounce removed in March 2026 and
   never appears now.

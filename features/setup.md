@@ -1,6 +1,6 @@
 # Setup
 
-Updated 2026-10-23 00:01, at 1.0.1.
+Updated 2026-10-23 17:26, at 1.0.1.
 
 Getting events in: two Shortcuts automations tell Timekeep each time a chosen
 app opens or closes. iOS has no API that hands an app your usage, so this is
@@ -36,5 +36,7 @@ in View Raw Events.
 
 - The app icon is looked up by sending the app's name to the App Store
   search. It's the one thing that leaves the phone; events and sessions don't.
+- The Is Closed trigger doesn't fire when the phone locks (seen 2026-10-23);
+  see the Activity log's Gotchas for what that does to sessions.
 - An app not in the automations' triggers is never seen: its time goes to the
   app opened before it, until the next event.
