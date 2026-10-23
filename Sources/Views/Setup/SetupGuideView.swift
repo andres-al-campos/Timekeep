@@ -18,7 +18,7 @@ struct SetupGuideView: View {
                         Text("One-Time Setup")
                             .font(.title2.weight(.bold))
 
-                        Text("Create a single Shortcuts automation and Timekeep tracks every app you use.")
+                        Text("Create two Shortcuts automations and Timekeep tracks every app you choose.")
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
                             .multilineTextAlignment(.center)
