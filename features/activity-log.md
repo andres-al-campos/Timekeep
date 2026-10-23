@@ -1,6 +1,6 @@
 # Activity log
 
-Updated 2026-10-23 00:12, at 1.0.1.
+Updated 2026-10-23 00:53, at 1.0.1.
 
 Every app session with the time it started, grouped by day, so you
 can see when you used each app and not just how long.
@@ -26,9 +26,9 @@ By hand only: open and close a tracked app and see the session appear.
 
 ## Calls
 
-- 2026-10-23 00:12, 1.0.1. A session runs from an app's open to the next app's open, so the timeline
-  shows when each app was in front, and that end is exact, not estimated.
-  The user, 2026-10-23.
+- 2026-10-23 00:53, 1.0.1. A session runs from an app's open until that app closes or another app
+  opens, whichever comes first, so the timeline shows when each app was in
+  front. Either end is exact, not estimated. The user, 2026-10-23.
 
 ## Gotchas
 
@@ -39,7 +39,6 @@ By hand only: open and close a tracked app and see the session appear.
   - An app opened again with no close in between restarts its session at the
     later open, and the time before it is dropped.
   - A close for an app that isn't open is ignored.
-- A session ended by the next app's open isn't an estimate: that's what a
-  session is, from one app's open to the next. The "~" a row shows for an
+- A session ended by the next app's open isn't an estimate (see Calls). The "~" a row shows for an
   estimated length is left over from a debounce removed in March 2026 and
   never appears now.
