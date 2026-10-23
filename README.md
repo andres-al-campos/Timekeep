@@ -1,5 +1,7 @@
 # Timekeep
 
+Updated 2026-10-22 23:44, at 1.0.1.
+
 A screen time tracker that keeps the **timestamps**, so you can see *when* you used each
 app, not just how long.
 
@@ -47,6 +49,7 @@ cp Config.xcconfig.example Config.xcconfig
 
 ./build.sh                 # build, sign, install to the connected iPhone (default)
 ./build.sh --no-install    # build + sign only, stage into ./build/Timekeep.app
+./build.sh check           # run the checks in laws/ and drive/, no build
 ./build.sh -h              # full usage
 ```
 
