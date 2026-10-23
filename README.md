@@ -1,6 +1,6 @@
 # Timekeep
 
-Updated 2026-10-22 23:57, at 1.0.1.
+Updated 2026-10-23 00:12, at 1.0.1.
 
 A screen time tracker that keeps the **timestamps**, so you can see *when* you used each
 app, not just how long.
@@ -27,7 +27,7 @@ never leaves your phone.
 2. Each event is stored locally (SwiftData) as an `AppEvent` (app name, opened/closed,
    timestamp).
 3. `SessionComputer` stitches those events into sessions, pairing an open with its close,
-   and estimating an end time from the next app's open when a close is missing.
+   and ending it at the next app's open when no close came first.
 4. The Dashboard and Activity Log show daily/weekly totals, per-app breakdowns, and
    usage charts.
 
