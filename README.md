@@ -1,6 +1,6 @@
 # Timekeep
 
-Updated 2026-10-22 23:44, at 1.0.1.
+Updated 2026-10-22 23:57, at 1.0.1.
 
 A screen time tracker that keeps the **timestamps**, so you can see *when* you used each
 app, not just how long.
@@ -16,8 +16,8 @@ Timekeep keeps that timeline: every session with its real start and end time.
 There's no public iOS API that will just hand an app your usage history, so Timekeep
 builds it from the other direction. You set up two **Shortcuts automations** once, and
 they tell Timekeep each time you open or close an app. It reconstructs your sessions from
-those events. It's a roundabout setup, but it's the only way to get this, and nothing
-ever leaves your phone.
+those events. It's a roundabout setup, but it's the only way to get this, and your usage
+never leaves your phone.
 
 ## How it works
 
@@ -31,7 +31,9 @@ ever leaves your phone.
 4. The Dashboard and Activity Log show daily/weekly totals, per-app breakdowns, and
    usage charts.
 
-All data stays on device. There is no account, server, or network sync.
+All data stays on device. There is no account, server, or network sync. The one
+request out is for app icons: an app's name is sent to the App Store search to
+fetch its icon.
 
 ## Requirements
 
