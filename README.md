@@ -1,7 +1,5 @@
 # Timekeep
 
-Updated 2026-10-23 00:12, at 1.0.1.
-
 A screen time tracker that keeps the **timestamps**, so you can see *when* you used each
 app, not just how long.
 
