@@ -1,6 +1,6 @@
 # One app
 
-Updated 2026-10-23 00:01, at 1.0.1.
+Updated 2026-10-25 11:38, at 1.0.1.
 
 One app's time for a day or a week, compared with the period before, and its
 sessions.

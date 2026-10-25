@@ -1,6 +1,6 @@
 # Setup
 
-Updated 2026-10-23 17:26, at 1.0.1.
+Updated 2026-10-25 11:38, at 1.0.1.
 
 Getting events in: two Shortcuts automations tell Timekeep each time a chosen
 app opens or closes. iOS has no API that hands an app your usage, so this is
