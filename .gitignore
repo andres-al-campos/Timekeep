@@ -13,3 +13,7 @@ Config.xcconfig
 # Machine-specific
 .DS_Store
 .claude/settings.local.json
+
+# Process, not product: mockups and per-quest plans stay on disk, off the remote
+designs/
+plans/
