@@ -1,8 +1,8 @@
 # Timekeep
 
-A person comes to Timekeep to see when they used each app through the day,
-not just for how long, so one long stretch looks different from many
-check-ins.
+A person comes to Timekeep to keep their time from running away on endless
+feeds: to see when and how long they used each app, so one long stretch looks
+different from many check-ins, and to have a session end when its time is up.
 
 What a user can do, and the checks for each, are in `dev/features/`. The
 walled_garden `AGENTS.md` Principles hold here too.
